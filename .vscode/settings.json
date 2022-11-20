@@ -1,0 +1,30 @@
+{
+    "python.pythonPath": ".venv/bin/python3",
+    "files.watcherExclude": {
+        "**/.venv/**": true
+    },
+    "files.exclude": {
+        "**/.venv/": true
+    },
+    "search.exclude": {
+        "**/.venv/": true
+    },
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--config=.flake8"
+    ],
+    "python.linting.enabled": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length=100",
+    ],
+    "editor.rulers": [
+        100
+    ],
+    "editor.formatOnSave": true,
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "autoDocstring.docstringFormat": "google",
+    "files.trimFinalNewlines": true,
+    "prettier.tabWidth": 2
+}

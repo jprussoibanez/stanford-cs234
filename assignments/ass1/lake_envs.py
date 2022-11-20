@@ -1,8 +1,7 @@
 # coding: utf-8
 """Defines some frozen lake maps."""
-from gym.envs.toy_text import frozen_lake, discrete
+# from gym.envs.toy_text import frozen_lake, discrete
 from gym.envs.registration import register
-
 
 register(
     id='Deterministic-4x4-FrozenLake-v0',

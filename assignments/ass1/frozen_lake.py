@@ -1,8 +1,9 @@
-import numpy as np
 import sys
-from six import StringIO, b
-from gym import utils
+
 import discrete_env
+import numpy as np
+from gym import utils
+from six import StringIO, b
 
 # Mapping between directions and index number
 LEFT = 0
